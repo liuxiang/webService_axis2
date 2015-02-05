@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- This file was auto-generated from WSDL --><!-- by the Apache Axis2 version: 1.6.2  Built on : Apr 17, 2012 (05:33:49 IST) --><serviceGroup>
+    <service name="IsmpSpEngineService">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="com.chinatelecom.ismp.sp.IsmpSpEngineServiceMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">com.chinatelecom.ismp.sp.IsmpSpEngineServiceSkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="orderRelationUpdateNotify" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://sp.ismp.chinatelecom.com">
+            <actionMapping>http://sp.ismp.chinatelecom.com/IsmpSpEngine/orderRelationUpdateNotifyRequest</actionMapping>
+            <outputActionMapping>http://sp.ismp.chinatelecom.com/IsmpSpEngine/orderRelationUpdateNotifyResponse</outputActionMapping>
+        </operation>
+        <operation name="notifyManagementInfo" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://sp.ismp.chinatelecom.com">
+            <actionMapping>http://sp.ismp.chinatelecom.com/IsmpSpEngine/notifyManagementInfoRequest</actionMapping>
+            <outputActionMapping>http://sp.ismp.chinatelecom.com/IsmpSpEngine/notifyManagementInfoResponse</outputActionMapping>
+        </operation>
+        <operation name="serviceConsumeNotify" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://sp.ismp.chinatelecom.com">
+            <actionMapping>http://sp.ismp.chinatelecom.com/IsmpSpEngine/serviceConsumeNotifyRequest</actionMapping>
+            <outputActionMapping>http://sp.ismp.chinatelecom.com/IsmpSpEngine/serviceConsumeNotifyResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>
